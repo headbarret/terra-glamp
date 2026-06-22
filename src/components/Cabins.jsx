@@ -200,7 +200,7 @@ export default function Cabins() {
 
   return (
     <section id="cabins" style={{ padding: '120px 0 100px', background: '#2C2825', position: 'relative' }}>
-      <div style={{ position: 'absolute', inset: 0, backgroundImage: 'url(/images/texture-cabins.jpg)', backgroundSize: '900px auto', backgroundPosition: 'top left', backgroundRepeat: 'repeat', opacity: 0.5, filter: 'brightness(0.65)', pointerEvents: 'none', zIndex: 0 }} />
+      <div style={{ position: 'absolute', inset: 0, backgroundImage: `url(${import.meta.env.BASE_URL}images/texture-cabins.jpg)`, backgroundSize: '900px auto', backgroundPosition: 'top left', backgroundRepeat: 'repeat', opacity: 0.5, filter: 'brightness(0.65)', pointerEvents: 'none', zIndex: 0 }} />
       <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: 1, background: 'linear-gradient(to right, transparent, rgba(163,118,93,0.35) 30%, rgba(163,118,93,0.35) 70%, transparent)', zIndex: 1 }} />
 
       <div className="reveal" style={{ textAlign: 'center', marginBottom: 72, padding: '0 24px', position: 'relative', zIndex: 1 }}>

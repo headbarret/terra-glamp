@@ -1,9 +1,9 @@
 {
   "name": "terra-boralis",
-  "homepage": "https://headbarret.github.io/terra-glamp",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://headbarret.github.io/terra-glamp",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
